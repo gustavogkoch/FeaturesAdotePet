@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', 'Roboto';
+    box-sizing: border-box;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    padding: 0 10%;
+    background: #fff;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+.iconeperfil{
+    width: 49px;
+    height: 49px;
+    border-radius: 100%;
+    opacity: 0.5;
+}
+.nav-links{
+    padding: 28px 0;
+}
+.nav-linkentrar{
+    padding: 28px 0;
+}
+.nav-linkcadastrar{
+    padding: 28px 0;
+}
+.nav-linkperfil{
+    padding: 28px 0;
+}
+.nav-links li{
+    display: inline-block;
+    margin: 0 40px;
+}
+.nav-linkentrar li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-linkcadastrar li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-linkperfil li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #d971a1;
+    font-family:'Open Sans';
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5px 0;
+    position: relative;
+    left: -150px;
+}
+.nav-linkentrar li a{
+    text-decoration: none;
+    color: #d971a1;
+    font-family:'Open Sans';
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5px 0;
+    position: relative;
+    left: 160px;
+}
+.nav-linkcadastrar li a{
+    text-decoration: none;
+    color: #fff;
+    font-family:'Open Sans';
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5px 0;
+    position: relative;
+    z-index: 1;
+}
+.nav-linkperfil li a{
+    text-decoration: none;
+    color: #3399bb;
+    opacity: 0.5;
+    font-family:'Open Sans';
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 5px 0;
+    position: relative; 
+    left: 170px;
+}
+.nav-linkcadastrar li a::before{
+    content: '';
+    background: #d971a1;
+    width: 100%;
+    height: 35px;
+    width: 130px;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    border-radius: 8%;
+    left: -6px;
+}
