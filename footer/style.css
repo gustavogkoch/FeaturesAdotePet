@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    min-width: 1300px;
+}
+
+footer {
+    background-color: #3399BB;
+    width: 100%;
+    color: white;
+    display: flex;
+}
+
+.rodape{
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+}
+
+.div-rodape{
+    float: left;
+    width: 25%;
+}
+
+.titulo-rodape {
+  font-family: "Open Sans", sans-serif;
+  font-size: 175%;
+  margin: 0px;
+}
+
+.texto-rodape {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    line-height: 130%;
+    font-size: 110%;
+  }
+
+  @media screen and (max-width:500px){
+    body{
+        margin: 0px;
+        min-width: 0px;
+    }
+    
+    footer {
+        background-color: #3399BB;
+        width: 100%;
+        height: 100%;
+        color: white;
+        text-align: center;
+    }
+    
+    .div-rodape{
+        width: 100%;
+        margin: 3%;
+    }
+
+    .rodape{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+
+
+
