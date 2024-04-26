@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 0px;
+    min-width: 100%;
+}
+
 header{
     height: 100vh;
     width: 100%;
@@ -18,96 +23,97 @@ nav{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    float: left;
 }
 
 .logo{
-    width: 200px;
-    height: 200px;
+    width: 18%;
+    height: 18%;
 }
 .iconeperfil{
-    width: 49px;
-    height: 49px;
+    width: 4.4%;
+    height: 4.4%;
     border-radius: 100%;
     opacity: 0.5;
 }
-.nav-links{
-    padding: 28px 0;
+.headernav-links{
+    padding: 2.5% 0;
 }
-.nav-linkentrar{
-    padding: 28px 0;
+.headernav-entrar{
+    padding: 2.5% 0;
 }
-.nav-linkcadastrar{
-    padding: 28px 0;
+.headernav-cadastrar{
+    padding: 2.5% 0;
 }
-.nav-linkperfil{
-    padding: 28px 0;
+.headernav-perfil{
+    padding: 5% 0;
 }
-.nav-links li{
+.headernav-links li{
     display: inline-block;
     margin: 0 40px;
 }
-.nav-linkentrar li{
+.headernav-entrar li{
     display: inline-block;
     margin: 0 15px;
 }
-.nav-linkcadastrar li{
+.headernav-cadastrar li{
     display: inline-block;
     margin: 0 15px;
 }
-.nav-linkperfil li{
+.headernav-perfil li{
     display: inline-block;
     margin: 0 15px;
+
 }
-.nav-links li a{
+.headernav-links li a{
     text-decoration: none;
     color: #d971a1;
     font-family:'Open Sans';
     font-weight: bolder;
-    font-size: 20px;
-    padding: 5px 0;
+    font-size: 120%;
+    padding: 0.45% 0;
     position: relative;
-    left: -150px;
 }
-.nav-linkentrar li a{
+.headernav-entrar li a{
     text-decoration: none;
     color: #d971a1;
     font-family:'Open Sans';
     font-weight: bolder;
-    font-size: 20px;
-    padding: 5px 0;
+    font-size: 120%;
+    padding: 0.45% 0;
     position: relative;
-    left: 160px;
+    left: 95%;
 }
-.nav-linkcadastrar li a{
+.headernav-cadastrar li a{
     text-decoration: none;
     color: #fff;
     font-family:'Open Sans';
     font-weight: bolder;
-    font-size: 20px;
-    padding: 5px 0;
+    font-size: 120%;
+    padding: 0.45% 0;
     position: relative;
     z-index: 1;
 }
-.nav-linkperfil li a{
+.headernav-perfil li a{
     text-decoration: none;
     color: #3399bb;
     opacity: 0.5;
     font-family:'Open Sans';
     font-weight: bolder;
-    font-size: 16px;
-    padding: 5px 0;
+    font-size: 104%;
+    padding: 0.45% 0;
     position: relative; 
-    left: 170px;
+    left: 50%;
 }
-.nav-linkcadastrar li a::before{
+.headernav-cadastrar li a::before{
     content: '';
     background: #d971a1;
-    width: 100%;
-    height: 35px;
-    width: 130px;
+    height: 110%;
+    width: 103%;
     position: absolute;
     z-index: -1;
-    bottom: 0;
     border-radius: 8%;
-    left: -6px;
 }
