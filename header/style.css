@@ -8,10 +8,11 @@
 
 .container {
     margin: 0px;
-    min-height: 100vh;
+    height: 20vh;
     width: 100%;
     padding: 10px 8%;
     background-color: #fff;
+    position: relative;
 }
 
 nav {
@@ -25,6 +26,7 @@ nav {
 .logo{
     height: 220px;
     width: 220px;
+    position: relative;
     cursor: pointer;
 }
 
@@ -41,6 +43,7 @@ nav ul{
     width: 100%;
     text-align: right;
     padding-right: 60px;
+    padding: 28px 0;
 }
 
 nav ul li{
@@ -51,7 +54,7 @@ nav ul li{
 nav ul li a{
     color: #d971a1;
     text-decoration: none;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 20px;
     font-weight: bolder;
 }
@@ -60,10 +63,9 @@ nav ul li a{
     text-decoration: none;
     color: #3399bb;
     opacity: 0.5;
-    font-family:'Open Sans';
+    font-family:'Open Sans', sans-serif;
     font-weight: bolder;
     font-size: 18px;
-    margin: 15px -50px;
 }
 
 .button{
