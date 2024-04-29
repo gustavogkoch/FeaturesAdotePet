@@ -1,3 +1,4 @@
+/* Edições do cabeçalho */
 *{
     margin: 0;
     padding: 0;
@@ -5,113 +6,76 @@
     box-sizing: border-box;
 }
 
-body{
+.container {
     margin: 0px;
-    min-width: 100%;
-}
-
-header{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
-    padding: 0 10%;
-    background: #fff;
-    position: relative;
+    padding: 10px 8%;
+    background-color: #fff;
 }
 
-nav{
+nav {
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    padding: 10px 0;
     align-items: center;
     justify-content: space-between;
-    padding-left: 10%;
-    padding-right: 10%;
-    width: 100%;
-    float: left;
 }
 
 .logo{
-    width: 18%;
-    height: 18%;
+    height: 220px;
+    width: 220px;
+    cursor: pointer;
 }
-.iconeperfil{
-    width: 4.4%;
-    height: 4.4%;
+
+.iconedeperfil{
+    height: 49px;
+    width: 49px;
+    cursor: pointer;
     border-radius: 100%;
     opacity: 0.5;
 }
-.headernav-links{
-    padding: 2.5% 0;
-}
-.headernav-entrar{
-    padding: 2.5% 0;
-}
-.headernav-cadastrar{
-    padding: 2.5% 0;
-}
-.headernav-perfil{
-    padding: 5% 0;
-}
-.headernav-links li{
-    display: inline-block;
-    margin: 0 40px;
-}
-.headernav-entrar li{
-    display: inline-block;
-    margin: 0 15px;
-}
-.headernav-cadastrar li{
-    display: inline-block;
-    margin: 0 15px;
-}
-.headernav-perfil li{
-    display: inline-block;
-    margin: 0 15px;
 
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
 }
-.headernav-links li a{
-    text-decoration: none;
+
+nav ul li{
+    display: inline-block;
+    margin: 15px 25px;
+}
+
+nav ul li a{
     color: #d971a1;
-    font-family:'Open Sans';
-    font-weight: bolder;
-    font-size: 120%;
-    padding: 0.45% 0;
-    position: relative;
-}
-.headernav-entrar li a{
     text-decoration: none;
-    color: #d971a1;
-    font-family:'Open Sans';
+    font-family: "Open Sans";
+    font-size: 20px;
     font-weight: bolder;
-    font-size: 120%;
-    padding: 0.45% 0;
-    position: relative;
 }
-.headernav-cadastrar li a{
-    text-decoration: none;
-    color: #fff;
-    font-family:'Open Sans';
-    font-weight: bolder;
-    font-size: 120%;
-    padding: 0.45% 0;
-    position: relative;
-    z-index: 1;
-}
-.headernav-perfil li a{
+
+.header_list_username a{
     text-decoration: none;
     color: #3399bb;
     opacity: 0.5;
     font-family:'Open Sans';
     font-weight: bolder;
-    font-size: 104%;
-    padding: 0.45% 0;
-    position: relative;
+    font-size: 18px;
 }
-.headernav-cadastrar li a::before{
-    content: '';
-    background: #d971a1;
-    height: 110%;
-    width: 103%;
-    position: absolute;
-    z-index: -1;
-    border-radius: 8%;
+
+.button{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    width: fit-content;
+    background-color: #d971a1;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
 }
