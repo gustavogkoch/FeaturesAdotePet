@@ -60,7 +60,7 @@ nav ul li a{
 }
 
 .header_list_username a{
-    text-decoration: none;
+    text-decoration: underline;
     color: #3399bb;
     opacity: 0.5;
     font-family:'Open Sans', sans-serif;
