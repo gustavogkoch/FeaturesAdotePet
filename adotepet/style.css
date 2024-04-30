@@ -1,0 +1,90 @@
+* {  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: #F3F1F1;
+}
+
+form {
+    width: 60%;   
+    margin: 0 auto; 
+    border: 4px solid #CBCBCB;
+    padding: 50px 90px; 
+    margin-bottom: 10px;
+    border-radius: 28px;
+    border: none;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(90, 89, 89, 0.2);
+}
+
+label {  
+    display: block; 
+    margin-bottom: 2px;
+    color: #3399BB;
+    font-size: 19px;
+    padding: 4px;
+    font-weight: 800;
+    text-align:  left;
+    font-family: 'Roboto';
+}
+
+input {
+    width: 100%; 
+    margin-bottom: 10px;
+    height: 32px;
+    border-radius: 3px;
+    color: #3399bba5;
+    border: 2px solid #CBCBCB;
+    padding-left: 10px;
+    padding-right: 100px;
+    
+}
+
+.form-column {  
+    display: flex;  
+    justify-content: space-between; 
+}
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: #F2A97E;
+    font-size: 46px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+}
+
+p {
+    padding-top: 0;
+    padding-bottom: 20px;
+    color: #F2A97E;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+input::placeholder {
+    color: #3399bb99; 
+    font-size: 14px;
+    padding: 4px;
+    font-family: 'Roboto';
+    text-align: left;
+    font-weight: 600;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    padding: 20px;
+    padding-left: 20px;
+    color: #3399BB;
+}
+
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 22px;
+}
+
