@@ -1,69 +1,109 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Card de Pets</title>
-</head>
-<body>
-    <div class="main-container">
-        <div class="large-card">
-            <div class="icon">
-                <img src="imgs/user_icon.png" alt="Ícone de perfil">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Card de Pets</title>
+    </head>
+    <body>
+        <header class="container">
+            <nav>
+                <img src="imgs/LogoCompletaAdotePet.png" alt="AdotePet" class="logo"/>
+                <ul class="header_list">
+                    <li class="header_list_item"><a href="">Início</a></li>
+                    <li class="header_list_item"><a href="">Adoções</a></li>
+                    <li class="header_list_item"><a href="">Eventos</a></li>
+                    <li class="header_list_item"><a href="">Suporte</a></li>
+                </ul>
+                <ul class="header_username">
+                    <b><li class="header_list_username"><a href="">nomedousuario</a></li></b>
+                </ul>
+                <img src="imgs/icone perfil 2.jpg" alt="Perfil" class="iconedeperfil">
+            </nav>
+        </header>
+        <main>
+            <h2 class="page-title">Meu Perfil</h2> <!-- Título que você quer adicionar -->
+            <h2 class="page-subtitle">Aqui você tem acesso às suas informações.</h2>
+            <div class="main-container">
+                <div class="large-card">
+                    <div class="icon">
+                        <img src="imgs/user_icon.png" alt="Ícone de perfil">
+                    </div>
+                    <div class="content">
+                        <div class="avatar"></div>
+        <div class="info">
+            <div class="field">
+                <h1 for="nome">Nome completo</h1>
+                <input type="text" id="nome" placeholder="Nome completo">
             </div>
-            <div class="content">
-                <h1>Nome completo</h1>
-                <h2>Data de Nascimento (Opcional)</h2>
-                <button>Editar</button>
+            <div class="field">
+                <h2 for="nascimento">Data de Nascimento (Opcional)</h2>
+                <input type="text" id="nascimento" placeholder="dd/mm/aaaa">
             </div>
+            <div class="field">
+                <h2 for="telefone">Telefone (Opcional)<h2>
+                <input type="text" id="telefone" placeholder="(00) 00000-0000">
+            </div>
+            <div class="field">
+                <h2 for="email">E-mail<h2>
+                <input type="email" id="email" placeholder="exemplo@gmail.com">
+            </div>
+            <div class="field">
+                <h2 for="senha">Senha<h2>
+                <input type="password" id="senha" placeholder="********">
+            </div>
+            <button type="button">Salvar</button>
         </div>
-        <div class="cards-container">
-            <div class="card">
-                <div class="icon">
-                    <img src="imgs/paw_icon.png" alt="Ícone de Patinha">
+                    </div>
                 </div>
-                <div class="content">
-                    <h1>Seus Pets</h1>
-                    <p>Adicione novos pets ou edite o perfil dos seus já cadastrados.</p>
-                    <button>Entrar</button>
+                <div class="cards-container">
+                    <div class="card">
+                        <div class="icon">
+                            <img src="imgs/paw_icon.png" alt="Ícone de Patinha">
+                        </div>
+                        <div class="content">
+                            <h1>Seus Pets</h1>
+                            <p>Adicione novos pets ou edite o perfil dos seus já cadastrados.</p>
+                            <button>Entrar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content">
+                            <h1>Seu Formulário</h1>
+                            <p>Modifique aqui seu formulário.</p>
+                            <button>Entrar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content">
+                            <h1>Mural dos felpudos</h1>
+                            <p>Salve suas fotos de felpudos a serem exibidas na página inicial.</p>
+                            <button>Entrar</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="content">
-                    <h1>Seu Formulário</h1>
-                    <p>Modifique aqui seu formulário.</p>
-                    <button>Entrar</button>
+        </main>
+        <footer>
+            <div class="rodape">
+                <div class="div-rodape">
+                    <h1 class="titulo-rodape">ADOTE PET</h1>
+                    <p class="texto-rodape"> Atuando desde 2024 - Projeto<br>Web pela PUCMINAS</p>
+                </div>
+                <div class="div-rodape">
+                    <h1 class="titulo-rodape">REDES SOCIAIS</h1>
+                    <p class="texto-rodape"> Facebook<br> Instagram<br> Telegram<br> Twitter</p>
+                </div>
+                <div class="div-rodape">
+                    <h1 class="titulo-rodape">CONTATO</h1>
+                    <p class="texto-rodape"> (31)91234-1234<br> adotepetbrasil@gmail.com</p>
+                </div>
+                <div class="div-rodape">
+                    <h1 class="titulo-rodape">CENTRAL DE AJUDA</h1>
+                    <p class="texto-rodape"> Suporte<br> Termos de uso<br> Politica de privacidade</p>
                 </div>
             </div>
-            <div class="card">
-                <div class="content">
-                    <h1>Mural dos felpudos</h1>
-                    <p>Salve suas fotos de felpudos a serem exibidas na página inicial.</p>
-                    <button>Entrar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer>
-        <div class="rodape">
-            <div class="div-rodape">
-                <h1 class="titulo-rodape">ADOTE PET</h1>
-                <p class="texto-rodape"> Atuando desde 2024 - Projeto<br>Web pela PUCMINAS</p>
-            </div>
-            <div class="div-rodape">
-                <h1 class="titulo-rodape">REDES SOCIAIS</h1>
-                <p class="texto-rodape"> Facebook<br> Instagram<br> Telegram<br> Twitter</p>
-            </div>
-            <div class="div-rodape">
-                <h1 class="titulo-rodape">CONTATO</h1>
-                <p class="texto-rodape"> (31)91234-1234<br> adotepetbrasil@gmail.com</p>
-            </div>
-            <div class="div-rodape">
-                <h1 class="titulo-rodape">CENTRAL DE AJUDA</h1>
-                <p class="texto-rodape"> Suporte<br> Termos de uso<br> Politica de privacidade</p>
-            </div>
-        </div>
-    </footer>
-</body>
-
+        </footer>
+    </body>
+</html>

@@ -1,15 +1,113 @@
-body {
+/* Cabeçalho */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', 'Roboto';
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0px;
+    height: 20vh;
+    width: 100%;
+    padding: 10px 8%;
+    background-color: #fff;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 220px;
+    width: 220px;
+    position: relative;
+    cursor: pointer;
+}
+
+.iconedeperfil{
+    height: 49px;
+    width: 49px;
+    cursor: pointer;
+    border-radius: 100%;
+    opacity: 0.5;
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+    padding: 28px 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 15px 25px;
+}
+
+nav ul li a{
+    color: #d971a1;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.header_list_username a{
+    text-decoration: underline;
+    color: #3399bb;
+    opacity: 0.5;
+    font-family:"Roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    width: fit-content;
+    background-color: #d971a1;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* Main */
+.page-title {
+    font-size: 50px; /* Tamanho da fonte do título */
+    color: #F2A97E; /* Cor do texto */
+    text-align: center; /* Centraliza o título */
+}
+.page-subtitle {
+    font-size: 25px; /* Tamanho da fonte do título */
+    color: #F2A97E; /* Cor do texto */
+    text-align: center; /* Centraliza o título */
+    margin: 10px 0; /* Espaçamento acima e abaixo do título */
+}
+main {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     height: 100vh;
     margin: 0;
     background-color: #f4f4f4;
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .main-container {
-    padding-bottom: 200px; /* Ajuste conforme a altura do seu footer */
+    padding-bottom: 20px; /* Ajuste conforme a altura do seu footer */
     display: flex;
     gap: 20px; /* Espaçamento entre o grande card e o contêiner dos três cards */
 }
@@ -24,6 +122,27 @@ body {
     text-align: center;
 }
 
+.info {
+    padding: 20px;
+}
+
+.field {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #3399bb;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
 .cards-container {
     display: flex;
     flex-direction: column;
@@ -85,7 +204,7 @@ footer {
     text-align: center;
     padding: 20px 0;
     font-size: 14px;
-    position: absolute;
+    position: bottom;
     bottom: 0;
     width: 100%;
     display: flex;
