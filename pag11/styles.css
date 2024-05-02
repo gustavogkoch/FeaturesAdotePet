@@ -88,13 +88,13 @@ nav ul li a{
     font-size: 50px; /* Tamanho da fonte do título */
     color: #F2A97E; /* Cor do texto */
     text-align: center; /* Centraliza o título */
-    margin: -10px;
+    margin: -20px;
 }
 .page-subtitle {
     font-size: 25px; /* Tamanho da fonte do título */
     color: #F2A97E; /* Cor do texto */
     text-align: center; /* Centraliza o título */
-    margin: 10px; /* Espaçamento acima e abaixo do título */
+    margin: 20px; /* Espaçamento acima e abaixo do título */
 }
 
 main {

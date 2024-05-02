@@ -88,15 +88,14 @@ nav ul li a{
     font-size: 50px; /* Tamanho da fonte do título */
     color: #F2A97E; /* Cor do texto */
     text-align: center; /* Centraliza o título */
-    margin: -10px;
+    margin: -100px;
 }
 .page-subtitle {
     font-size: 25px; /* Tamanho da fonte do título */
     color: #F2A97E; /* Cor do texto */
     text-align: center; /* Centraliza o título */
-    margin: 10px; /* Espaçamento acima e abaixo do título */
+    margin: 100px; /* Espaçamento acima e abaixo do título */
 }
-
 main {
     display: flex;
     justify-content: center;
@@ -116,26 +115,14 @@ main {
 
 .large-card {
     background-color: white;
-    width: 564px;
-    height: 722px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 10px;
     text-align: center;
 }
 
-.info {
-    padding: 20px;
-}
-
-.field {
-    margin-bottom: 15px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    color: #3399bb;
+.image-upload{
+    color: #3399BB
 }
 
 input {
@@ -144,28 +131,20 @@ input {
     border: 1px solid #ddd;
     border-radius: 5px;
     box-sizing: border-box;
-}
-.cards-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    margin: 20px;
 }
 
 .card {
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 361px;
+    width: 1022px;
+    height: 250px;
     border-radius: 8px;
     box-sizing: border-box;
     text-align: center;
+    margin: 20px;
 
-}
-
-.icon img {
-    justify-content: center;
-    width: 100px;
-    height: 100px;
 }
 
 .content h1 {
@@ -176,6 +155,7 @@ input {
 .content p {
     color: #D971A1;
     margin-bottom: 20px;
+    margin: 20px;
 }
 
 .content h2
@@ -193,6 +173,7 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
+    margin: 20px;
 }
 
 button:hover {
