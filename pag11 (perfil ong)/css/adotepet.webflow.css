@@ -675,6 +675,10 @@
 .image-3 {
   vertical-align: top;
   align-self: center;
+  width: 100px;
+  height: 100px;
+  object-fit: cover; /* This will ensure that the image covers the entire area of the img tag without stretching */
+
 }
 
 .text-block-3 {
