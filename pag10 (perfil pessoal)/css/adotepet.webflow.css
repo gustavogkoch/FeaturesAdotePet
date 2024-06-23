@@ -1031,3 +1031,139 @@
 }
 
 
+/* Edições do cabeçalho */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', 'Roboto';
+  box-sizing: border-box;
+}
+
+.container {
+  width: max-content;
+  z-index: 900;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  height: 80px;
+  position: relative;
+  cursor: pointer;
+}
+
+.iconedeperfil{
+  height: 49px;
+  width: 49px;
+  cursor: pointer;
+  border-radius: 100%;
+  opacity: 0.5;
+}
+
+nav ul{
+  list-style: none;
+  width: 100%;
+  text-align: right;
+  padding-right: 60px;
+  padding: 28px 0;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 15px 25px;
+}
+
+nav ul li a{
+  color: #d971a1;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.header_list_username a{
+  text-decoration: underline;
+  color: #3399bb;
+  opacity: 0.5;
+  font-family:'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+  width: fit-content;
+  background-color: #d971a1;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+footer {
+  background-color: #3399BB;
+  width: 100%;
+  color: white;
+  display: flex;
+}
+
+.rodape{
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+}
+
+.div-rodape{
+  float: left;
+  width: 25%;
+}
+
+.titulo-rodape {
+font-family: "Open Sans", sans-serif;
+font-size: 120%;
+margin: 0px;
+}
+
+.texto-rodape {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  line-height: 130%;
+  font-size: 80%;
+}
+
+@media screen and (max-width:500px){
+  body{
+      margin: 0px;
+      min-width: 0px;
+  }
+  
+  footer {
+      background-color: #3399BB;
+      width: 100%;
+      height: 100%;
+      color: white;
+      text-align: center;
+  }
+  
+  .div-rodape{
+      width: 100%;
+      margin: 3%;
+  }
+
+  .rodape{
+      padding-left: 2%;
+      padding-right: 2%;
+  }
+}
